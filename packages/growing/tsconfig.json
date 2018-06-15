@@ -18,6 +18,9 @@
     "plugins": [
         {
             "name": "typescript-workspace-plugin"
+        },
+        {
+            "name": "typescript-styled-plugin"
         }
     ]
 }

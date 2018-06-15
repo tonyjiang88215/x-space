@@ -1,5 +1,5 @@
-import { Grid } from "./Grid";
+import { Grid, GridProperties } from './Grid';
 
 export {
-    Grid
+    Grid, GridProperties
 }

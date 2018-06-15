@@ -3,6 +3,7 @@
         "outDir": "./dist",
         "experimentalDecorators": true,
         "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
         "jsx": "react",
         "target": "es5"
     },

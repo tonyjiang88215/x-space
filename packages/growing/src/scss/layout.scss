@@ -1,0 +1,28 @@
+@import "./colors.scss";
+
+.layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    background: $darkWhite;
+
+    >.left{
+        width: 200px;
+        border-right: 1px solid $gray;
+        box-shadow: 2px 0px 4px 0px $lightGray;
+        z-index: 1;
+    }
+
+    >.center{
+        flex: 1;
+        padding: 20px;
+        background: $white;
+    }
+}
